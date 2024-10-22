@@ -8,20 +8,20 @@ const rl = readline.createInterface({
 });
 
 // Função que verifica o nível do herói com base na experiência
-function categoriaXP(exp) {
-  if (exp < 1000) {
+function categoriaXP(xp) {
+  if (xp < 1000) {
       return "Ferro";
-  } else if (exp >= 1001 && exp <= 2000) {
+  } else if (xp >= 1001 && exp <= 2000) {
       return "Bronze";
-  } else if (exp >= 2001 && exp <= 5000) {
+  } else if (xp >= 2001 && exp <= 5000) {
       return "Prata";
-  } else if (exp >= 5001 && exp <= 7000) {
+  } else if (xp >= 5001 && exp <= 7000) {
       return "Ouro";
-  } else if (exp >= 7001 && exp <= 8000) {
+  } else if (xp >= 7001 && exp <= 8000) {
       return "Platina";
-  } else if (exp >= 8001 && exp <= 9000) {
+  } else if (xp >= 8001 && exp <= 9000) {
       return "Ascendente";
-  } else if (exp >= 9001 && exp <= 10000) {
+  } else if (xp >= 9001 && exp <= 10000) {
       return "Imortal";
   } else {
       return "Radiante";
@@ -34,7 +34,7 @@ rl.question('Digite o nome do Herói: ', (nome) => {
     const exp = parseInt(expInput); // Converter a entrada para número
 
     // Exibir o resultado
-    console.log(`O Herói ${nome} está no nível ${categoriaXP(exp)}.`);
+    console.log(`O Herói ${nome} está no nível ${categoriaXP(xp)}.`);
 
     // Fechar a interface
     rl.close();
