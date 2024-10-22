@@ -7,10 +7,10 @@ Este desafio consiste em criar um programa que classifique o nível de um herói
 
 ## ⚠️O Que Deve Ser Utilizado⚠️
 
--Variáveis
--Operadores
--Laços de repetição (opcional)
--Estruturas de decisão (obrigatório)
+- Variáveis
+- Operadores
+- Laços de repetição (opcional)
+- Estruturas de decisão (obrigatório)
 
 ## 🎯Objetivo🎯
 
