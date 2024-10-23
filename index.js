@@ -33,8 +33,13 @@ rl.question('Digite o nome do Herói: ', (nome) => {
   rl.question('Digite a quantidade de Experiência: ', (expInput) => {
     const exp = parseInt(expInput); // Converter a entrada para número
 
-    // Exibir o resultado
-    console.log(`O Herói ${nome} está no nível ${categoriaXP(xp)}.`);
+    // Verificar se a entrada é um número válido
+    if (isNaN(exp)) {
+      console.log('Por favor, insira um número válido para a experiência.');
+    } else {
+      // Exibir o resultado
+      console.log(`O Herói ${nome} está no nível ${categoriaXP(exp)}.`);
+    }
 
     // Fechar a interface
     rl.close();
