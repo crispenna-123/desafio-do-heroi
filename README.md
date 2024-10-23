@@ -1,18 +1,18 @@
 
 # 🔰 Desafio Classificador de nível de Herói 🔰
 
-## 📄 Descrição 📄
+## 📄 Descrição 
 
 Este desafio consiste em criar um programa que classifique o nível de um herói com base em sua quantidade de experiência (XP). Utilizando variáveis, operadores, laços de repetição e estruturas de decisão, você deverá criar um sistema que atribua uma categoria ao herói conforme os intervalos de XP definidos.
 
-## ⚠️ O Que Deve Ser Utilizado ⚠️
+## ⚠️ O Que Deve Ser Utilizado 
 
 - Variáveis
 - Operadores
 - Laços de repetição (opcional)
 - Estruturas de decisão (obrigatório)
 
-## 🎯 Objetivo 🎯
+## 🎯 Objetivo 
 
 Você deverá criar uma variável para armazenar:
 
